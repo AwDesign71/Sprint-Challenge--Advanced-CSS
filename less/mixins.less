@@ -1,1 +1,37 @@
 // Mixins Here
+//Nav Header
+.bgColor {
+   background: @wild-sand;
+}
+.add-color {
+    color: @river-bend;
+}
+.weight {
+    font-weight: bolder;
+}
+.radius {
+    border-radius: 5px;
+}
+.nav-header {
+    .bgColor();
+}
+.intro {
+    p {
+        .add-color();
+    }
+    .main-header {
+        .radius();
+    }
+}
+.visit-planets p {
+    .add-color();
+    display: none;
+}
+
+.walk p {
+    .add-color();
+}
+footer {
+    .weight();
+}
+// button
