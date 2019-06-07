@@ -34,15 +34,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+In adaptive design, it uses a different layout that will target multiple screen sizes, and responsive design will take an adaptive layout and use it for any mobile device screen.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile design is easy to target because the layout will allow a designer to stack content, and with a desktop monitor, the screen can be 17 and up. The developer would have to make the viewport at the highest to accommodate those sizes.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Because rem starts at the root, which is HTML and when using 62.5% that equals to 10px, then the size of the font will come out to be .625rem.
+
 4. How would you describe preprocessing to someone new to CSS?
+
+Using preprocessing is a way to keep your CSS file clean because you don’t have to do anything to that file. A preprocessor is another way to create a variable to be reused; here is an example; @color: red. You use this throughout your code, so you don’t repeat yourself. It allows you also to nest your code, another example would be; class {
+Background: grey;
+.another-class {
+  color: black;
+  }
+}
+The out come will look like this; 
+.class {
+background: grey;
+}
+.another-class {
+color: black;
+
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+I like the variables because it gives me the ability to reuse the same code and also nesting, parametric mixin. The one that can an issue is using media query nesting at rules. That is the one that I have to look closely to get a clear understanding.
 
 ## Project Set Up
 

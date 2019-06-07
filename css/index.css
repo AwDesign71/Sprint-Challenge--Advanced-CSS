@@ -198,6 +198,7 @@ p {
   align-items: center;
   flex: 1 25%;
   margin: 0;
+  border-bottom: #F1F1F1;
 }
 .nav-bar a {
   padding: 13px 15px;
@@ -268,6 +269,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  background: #22283A;
+  padding: 8px 8px;
+  border-radius: 5px;
+  color: #F1F1F1;
+}
+.home .walk .walk-text .btn:hover {
+  background: #37405d;
+  cursor: pointer;
 }
 .home .walk .walk-img {
   width: 46%;

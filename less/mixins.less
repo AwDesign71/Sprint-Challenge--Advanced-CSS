@@ -35,3 +35,24 @@ footer {
     .weight();
 }
 // button
+.btn-style(){
+    background: @btn-bg-color;
+    padding: 8px 8px;
+}
+.font() {
+    font-size: 1.7rem;
+}
+.flex-style() {
+    display: flex;
+}
+.fontColor() {
+    color: @sea-shell;
+}
+
+.styles(@justify, @width) {
+   display: flex;
+   justify-content: @justify;
+   width: @width;
+   .btn-style();
+   .radius();
+}
