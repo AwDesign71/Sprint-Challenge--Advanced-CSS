@@ -294,6 +294,10 @@ footer {
   border-radius: 10px;
 }
 @media (max-width: 500px) {
+  .home {
+    width: 100%;
+    margin: 0;
+  }
   .home .intro img {
     width: 100%;
   }
@@ -332,10 +336,11 @@ footer {
     background: #22283A;
     padding: 8px 8px;
     border-radius: 5px;
+    padding: 25px 65px;
     color: #F1F1F1;
   }
   .home .walk .btn:hover {
     background: #37405d;
-    /* cursor: pointer; */
+    border: 1px solid #000;
   }
 }
